@@ -1,17 +1,39 @@
 baseurl = "https://ariefbuddies.github.io/hamburg/"
-# If you use "hugo server" you might want to use this entry:
-#baseurl = "http://localhost:1313/"
-title = "Hamburg theme example"
-copyright = "&copy; Lorem ipsum ... and so on ..."
-
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = "true"
+title = "Your site title"
 theme = "hamburg"
 
-[menu]
-	[[menu.main]]
-		name = "About"
-		identifier = "about"
-		url = "pages/about"
-
 [params]
+    # Short subtitle/tagline. This is displayed in the header.
+    themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+    # To load additional CSS styles
+    customCSS = ['hamburg.css']
+    # Show this very user-friendly and absolutely not annoying GDPR notice at the bottom of the page
+    ShowGDPRNotice = true
 	subtitle = "The great example site of the hugo-hamburg-theme"
+	# Since 0.57.0 there's the concept of "main sections". The files for the section "posts" are in "./content/posts/".
 	mainSections = ["posts"]
+
+[languages]
+    [languages.en]
+        languageCode = "en"
+        languageName = "English"
+        subtitle = "A simple subtitle"
+        # Copyright notice. This is displayer in the footer.
+        copyright = "&copy; some license"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                name = "About"
+                identifier = "about"
+                url = "pages/about"
+    [languages.de]
+        languageCode = "de"
+        languageName = "Deutsch"
+        subtitle = "Ein einfacher Untertitel"
+        copyright = "&copy; eine Lizenz"
+        [languages.de.menu]
+            [[languages.de.menu.main]]
+                name = "Über"
+                identifier = "about"
+                url = "pages/about"
