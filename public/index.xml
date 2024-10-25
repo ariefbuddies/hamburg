@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Sep 2018 19:04:46 +0200</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://example.org/pages/about/</link>
+      <pubDate>Mon, 10 Sep 2018 19:04:46 +0200</pubDate>
+      <guid>https://example.org/pages/about/</guid>
+      <description>This theme can do pages as well. WOW.</description>
+    </item>
+    <item>
+      <title>Actual post</title>
+      <link>https://example.org/posts/actual/</link>
+      <pubDate>Mon, 10 Sep 2018 18:58:26 +0200</pubDate>
+      <guid>https://example.org/posts/actual/</guid>
+      <description>An actual post with some information on this theme</description>
+    </item>
+    <item>
+      <title>Some example Post</title>
+      <link>https://example.org/posts/some-post/</link>
+      <pubDate>Mon, 10 Sep 2018 18:36:26 +0200</pubDate>
+      <guid>https://example.org/posts/some-post/</guid>
+      <description>This is a placeholder article. Nothing interesting here &amp;hellip;</description>
+    </item>
+  </channel>
+</rss>
