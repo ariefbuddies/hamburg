@@ -1,3 +1,2 @@
 [submodule "path_to_submodule"] 
-  path = "themes/hamburg"
   url = git@github.com:hauke96/hugo-theme-hamburg.git
