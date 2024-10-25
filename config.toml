@@ -4,7 +4,7 @@ baseurl = "https://ariefbuddies.github.io/hamburg/"
 title = "Hamburg theme example"
 copyright = "&copy; Lorem ipsum ... and so on ..."
 
-theme = "hugo-theme-hamburg"
+theme = "hamburg"
 
 [menu]
 	[[menu.main]]
